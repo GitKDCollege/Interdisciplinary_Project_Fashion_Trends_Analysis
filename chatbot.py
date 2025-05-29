@@ -6,7 +6,7 @@ import sqlite3 as lite
 import json
 
 load_dotenv()
-API_KEY = os.getenv('GROQ_API_KEY')
+API_KEY = st.secrets('GROQ_API_KEY')
 
 # Prompt
 prompt = [
